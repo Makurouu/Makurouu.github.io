@@ -1,0 +1,207 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Code */
+
+body {
+    background-color: #eaeaea;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 900px;
+    margin: 50px auto;
+	background-color: white;
+	padding: 10px;
+	position: relative;
+}
+
+
+.header h1 {
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+.container ul li {
+	display: inline-block;
+	margin-top: 5px;
+	padding-right: 8px;
+	color: salmon;
+}
+
+a {
+	text-decoration: none;
+	color: salmon;
+}
+
+a:hover {
+	color: black;
+}
+
+a:active {
+	color: aqua;
+}
+
+.container .gambar {
+	height: 500px;
+	display: block;
+	background-image: url('asset/ironman.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 -200px;
+	margin: 10px;
+	margin-bottom: 30px;
+}
+
+.container .main h2{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.container .main p { 
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.copyright {
+	background-color: black;
+	color: white;
+	padding: 20px;
+	width: 880px;
+	text-align: center;
+	margin: auto;
+	position: absolute;
+	bottom: -50px;
+	right:0;
+}
+
+.content {
+	width: 900px;
+}
+
+.container ul li .berbeda {
+	border-right: 2px solid white;
+}
+
+.main {
+	width: 500px;
+	float: left;
+}
+
+.photo {
+	float: right;
+	width: 400px;
+	box-sizing: border-box;
+	background-color: white;
+}
+
+.photo h3 {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.photo .ngatur {
+	width: 150px;
+	height: 150px;
+	float: left;
+	padding: 10px;
+	margin-top: 50px;
+}
+
+.photo p {
+	margin-top: 60px;
+}
+
+/* clearfix */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+
+/* next code */
+
+
+
+
+
+
+/* code youtube */
+
+.youtube {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: -28px;
+	right: 45px;
+}
+
+.youtube img {
+	width: 125px;
+	height: 125px;
+}
+
+.topbar {
+	position: fixed;
+	height: 50px;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #316FF6;
+	z-index: 9999;
+}
